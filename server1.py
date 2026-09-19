@@ -58,4 +58,4 @@ while True:
 
 # Client 1 connects --> accept --> close listening socket --> communicate with C1 --> C1 disconnects --> close client socket --> outer loop --> create new listening socket --> accept C2   
 
-# When the client disconnects, close its connection socket.
+# When the first client disconnects, server 1 closes its connection socket. 
